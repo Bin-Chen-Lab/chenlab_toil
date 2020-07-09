@@ -21,7 +21,7 @@ foreach(srr.id = srr.list) %do% {
     cmd.str <- sprintf('ls fastq|grep %s',srr.id)
     tmp     <- system(cmd.str,wait=TRUE,intern=TRUE)
     if(length(tmp) > 0){
-        cmd     <- sprintf('perl $SC18/RP2/process.one.sample.pl %s',srr.id)
+        cmd     <- sprintf('perl path of process.one.sample.pl %s',srr.id)
         rsem.file <- sprintf('RSEM.output/%s.genes.results',srr.id)
         if(file.exists(rsem.file) == FALSE){
             system(cmd,wait=TRUE,intern=TRUE)
