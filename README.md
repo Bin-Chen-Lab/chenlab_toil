@@ -1,6 +1,11 @@
 # chenlab_toil
 RNA-Seq processing using toil
 
+Generate STAR and RSEM index.
+
+https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/lessons/03_alignment.html
+https://hbctraining.github.io/Intro-to-rnaseq-hpc-O2/lessons/03_alignment.html
+
 In your main directory : 
 
 1. Create a folder named fastq.
